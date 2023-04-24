@@ -1,0 +1,144 @@
+{
+	"info": {
+		"_postman_id": "22f21ed7-ba10-472a-b311-7d829ffdcd96",
+		"name": "ApiRestTestBootCamp",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24870366"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/laptops",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/laptops",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"laptops"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/laptops/1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/laptops/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"laptops",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/laptops",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"marca\": \"Bangho\",\r\n    \"modelo\": \"Futura\",\r\n    \"memoria\": 900,\r\n    \"procesador\": \"Intel\",\r\n    \"precio\": 500.99\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/laptops",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"laptops"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/laptops",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 1,\r\n    \"marca\": \"Lenovo\",\r\n    \"modelo\": \"Legion\",\r\n    \"memoria\": 500,\r\n    \"procesador\": \"Intel\",\r\n    \"precio\": 1100.00\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/laptops",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"laptops"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/laptops/1",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/laptops/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"laptops",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/laptops",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/laptops",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"laptops"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
